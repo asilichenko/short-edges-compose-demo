@@ -74,7 +74,7 @@ Scaffold(
 <img height="300" alt="horisontal" src="https://github.com/user-attachments/assets/fb95abd6-951a-4e89-af63-65e451a6ec53" />
 
 # References
-- Article
+- [Article: Android edge-to-edge layout](https://www.linkedin.com/pulse/android-edge-to-edge-layout-oleksii-sylichenko-foe8f/)
 - [Java+XML Demo App Repository](https://github.com/asilichenko/android-short-edges)
 - [Display content edge-to-edge in your app](https://developer.android.com/develop/ui/views/layout/edge-to-edge)
 - [Support display cutouts](https://developer.android.com/develop/ui/views/layout/display-cutout)
