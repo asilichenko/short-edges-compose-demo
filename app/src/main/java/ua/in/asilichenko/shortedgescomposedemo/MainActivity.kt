@@ -28,19 +28,14 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             ShortEdgesTheme {
-                Scaffold(
-                    contentWindowInsets = WindowInsets.safeDrawing,
-                ) { innerPadding ->
-                    MainScreen(modifier = Modifier.padding(innerPadding))
-                }
-
+                ShortEdgesDemoApp()
             }
         }
     }
 }
 
 @Composable
-fun App() {
+fun ShortEdgesDemoApp() {
     Scaffold(
         contentWindowInsets = WindowInsets.safeDrawing,
     ) { innerPadding ->
@@ -54,7 +49,7 @@ fun App() {
 @Composable
 fun MainScreenPreview() {
     ShortEdgesTheme {
-        App()
+        ShortEdgesDemoApp()
     }
 }
 
